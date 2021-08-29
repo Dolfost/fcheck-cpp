@@ -33,7 +33,7 @@ short ifstrm_status(ifstream& inFile, const char *filename, bool exit_if_fail, b
 `filename`: file name,   
 `exit_if_fail`: exit if something bad,  
 `eof_react`: react to eof (if true, function returns true on eof),   
-`slient`: `true` - print messages (call funclions), `false` - dont print messages (call functions),   
+`slient`: `true` - print messages, `false` - dont print messages,   
 `<return>short`: 0 - all ok, 1 - eof (if eof_react is true), 2 - data missmatch, 3 - unknown reason;   
 
 ```C++
