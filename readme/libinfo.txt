@@ -33,7 +33,7 @@ inFile : 			main object,
 filename : 			file name,
 exit_if_fail : 			exit if something bad,
 eof_react : 			react to eof (if true, function returns true on eof),
-slient : 			1 - print messages (call funclions), 2 - dont print messages (call functions),
+slient : 			1 - print messages, 2 - dont print messages,
 <return>short : 		0 - all ok, 1 - eof (if eof_react is true), 2 - data missmatch, 3 - unknown reason;
 
 
@@ -45,7 +45,7 @@ inFile : 			main object,
 filename : 			file name,
 exit_if_fail : 			exit if something bad,
 eof_react : 			react to eof (if true, function returns true on eof),
-slient : 			1 - print messages (call funclions), 2 - dont print messages (call functions),
+slient : 			1 - print messages (call funclions by passed pointers), 2 - dont print messages (call functions by passed pointers),
 <return>short : 		0 - all ok, 1 - eof (if eof_react is true), 2 - data missmatch, 3 - unknown reason;
 
 
