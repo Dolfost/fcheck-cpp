@@ -23,7 +23,7 @@ funpt :				function pointer. must describe the error. see readme/run for details
 inFile :			main object,
 filename :        	 	filename of file,
 exit if closed :  		exit if file is closed,
-<return>bool : 			1 - closed, 0 - opened;
+<return>bool : 			true - opened, false - closed;
 
 
 
@@ -57,7 +57,6 @@ changes:
 24/07/2021 1.5.0		add messages/ directory and ability to easily modify messages;
 26/07/2021 1.6.0		add support for const char[];
 25/08/2021 2.0.0		add output modification via function pointers, expand the return values of ifstrm_status();
-
 
 
 
